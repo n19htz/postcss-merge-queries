@@ -1,0 +1,15 @@
+src
+.husky
+.commitlintrc.json
+.editorconfig
+.eslintrc.js
+.eslintignore
+.prettierignore
+.prettierrc.js
+.travis.yml
+rollup.config.js
+jest.config.json
+package-lock.json*
+tsconfig.json
+CHANGELOG.md
+CONTRIBUTING.md

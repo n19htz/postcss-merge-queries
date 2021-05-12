@@ -1,0 +1,25 @@
+{
+  "testEnvironment": "node",
+  "verbose": true,
+  "preset": "ts-jest",
+  "globals": {
+    "ts-jest": {
+      "tsconfig": "tsconfig.json"
+    }
+  },
+  "rootDir": ".",
+  "setupFilesAfterEnv": ["<rootDir>/src/setupTests.ts"],
+  "testMatch": [
+    "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
+    "<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}"
+  ],
+  "testPathIgnorePatterns": ["<rootDir>/src/__mocks__/*", "<rootDir>/src/mocks/*"],
+  "collectCoverageFrom": [
+    "<rootDir>/src/**/*.{ts,tsx}",
+    "!<rootDir>/src/**/*.d.ts",
+    "!<rootDir>/src/**/*.spec.{ts,tsx}",
+    "!<rootDir>/src/**/*.test.{ts,tsx}",
+    "!<rootDir>/src/**/__*__/*"
+  ],
+  "cacheDirectory": "<rootDir>/.cache/unit"
+}
