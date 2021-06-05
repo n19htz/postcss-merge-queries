@@ -1,4 +1,4 @@
-# PostCSS Media Query Packer
+# PostCSS Merge Queries
 
 Simple media packer, merges same CSS media query rules into one via PostCSS
 
