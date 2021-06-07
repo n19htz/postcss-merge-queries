@@ -1,7 +1,7 @@
 {
   "name": "postcss-merge-queries",
   "description": "Simple media packer, merges same CSS media query rules into one via PostCSS",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "n19htz <4n19htz@gmail.com>",
   "bugs": {
     "url": "https://github.com/n19htz/postcss-merge-queries/issues"
