@@ -7,7 +7,6 @@
     "url": "https://github.com/n19htz/postcss-merge-queries/issues"
   },
   "dependencies": {
-    "minimist": "^1.2.0",
     "postcss": "^8.2.15"
   },
   "devDependencies": {
@@ -41,7 +40,9 @@
   "keywords": [
     "css",
     "media",
-    "css-postcssMergeQueries",
+    "postcss-merge-queries",
+    "postcss-merge-media",
+    "postcss-merge-media-queries",
     "media-query",
     "@media",
     "postcss-plugin",
