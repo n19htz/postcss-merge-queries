@@ -5,6 +5,7 @@ Simple media packer, merges same CSS media query rules into one via PostCSS
 [![npm](https://img.shields.io/npm/v/postcss-merge-queries)](https://www.npmjs.com/package/postcss-merge-queries)
 [![GitHub](https://img.shields.io/github/license/n19htz/postcss-merge-queries)](https://github.com/n19htz/postcss-merge-queries/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/n19htz/postcss-merge-queries.svg?branch=master)](https://travis-ci.org/n19htz/postcss-merge-queries)
+[![Node.js CI](https://github.com/n19htz/postcss-merge-queries/actions/workflows/ci.yml/badge.svg)](https://github.com/n19htz/postcss-merge-queries/actions/workflows/ci.yml)
 
 ## ABOUT
 
